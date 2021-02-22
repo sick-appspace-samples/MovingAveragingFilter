@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manifest>
+    <application name="MovingAveragingFilterSample">
+        <meta key="author">AppSpace Sample</meta>
+        <meta key="version">1.0</meta>
+        <meta key="licensed">false</meta>
+        <meta key="priority">low</meta>
+        <meta key="read-protected">false</meta>
+        <meta key="copy-protected">false</meta>
+        <entry path="pages" default="TiM8xx.msdd">
+            <file type="application/zip">TiM8xx.msdd</file>
+        </entry>
+        <entry path="resources">
+            <file type="image">irreg01.jpg</file>
+            <file type="application">irreg01_data01.bin</file>
+            <file type="application">irreg01_data02.bin</file>
+            <file type="application">irreg01_data03.bin</file>
+            <file type="text/xml">TestScenario.xml</file>
+        </entry>
+        <entry path="scripts" default="MovingAveragingFilter.lua">
+            <file type="text/x-lua">MovingAveragingFilter.lua</file>
+        </entry>
+    </application>
+</manifest>
