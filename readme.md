@@ -2,7 +2,7 @@
 
 Demonstration of applying MovingAveragingFilter on scan data.
 
-### Description:
+### Description
 
 Scan data is loaded from a file in the resources directory and the moving averaging filter is applied to that data. The filtered data is displayed and the difference between the original and the filtered scan is evaluated.
 
@@ -21,4 +21,4 @@ To run with real device data, the file provider has to be exchanged with the app
 
 ### Topics
 
-Algorithm, Scan, Filtering, Sample, SICK-AppSpace
+algorithm, scan, filtering, sample, sick-appspace
