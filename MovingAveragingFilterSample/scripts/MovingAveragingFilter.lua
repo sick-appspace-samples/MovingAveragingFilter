@@ -80,7 +80,7 @@ local function getAverageDelta(inputScan, filteredScan, threshold, printDetails)
   end
 end
 
--- Callback function to process new scans
+---Callback function to process new scans
 function handleOnNewScan(scan)
   scanCounter = scanCounter + 1
   -- Clone input scan
